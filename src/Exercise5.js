@@ -5,11 +5,11 @@ const data = ["dog", "cat", "chicken", "cow", "sheep", "horse"];
 const Exercise5 = () => {
   return (
     <div className="flex flex-col mt-24 justify-center ml-[50%] gap-2">
-      {data.map((dogType, index) => (
-        <ol key={index}>
-          <li>{dogType}</li>
-        </ol>
-      ))}
+      <ul className="list-disc">
+        {data.map((dogType, index) => (
+          <li key={index}>{dogType}</li>
+        ))}
+      </ul>
     </div>
   );
 };
