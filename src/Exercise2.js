@@ -7,7 +7,7 @@ const Exercise2 = () => {
         className="bg-blue-500 text-white px-10 py-5 rounded-lg"
         onClick={() => alert("Hello!! How are you?")}
       >
-        Click me{" "}
+        Click me
       </button>
     </div>
   );

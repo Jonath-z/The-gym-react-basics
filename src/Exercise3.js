@@ -6,7 +6,7 @@ const Button = (props) => (
       className="bg-blue-500 text-white px-10 py-5 rounded-lg"
       onClick={() => alert(props.text)}
     >
-      Click me{" "}
+      Click me
     </button>
   </div>
 );
